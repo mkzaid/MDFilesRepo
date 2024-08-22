@@ -1,126 +1,12 @@
+# **List of Modules**
 
-
-**Table of Content** 
-
-**List of Modules**	[4
-
-[**Module 1:**	4](\#module-1:)
-
-[Suggested Module Names	5](\#suggested-module-names)
-
-[Module Description	5](\#module-description)
-
-[**Module 2:**	5](\#module-2:)
-
-[Suggested Module Names	6](\#suggested-module-names-1)
-
-[Module Description	6](\#heading=h.4k668n3)
-
-[**Module 3:**	6](\#module-3:)
-
-[Suggested Module Names	7](\#suggested-module-names-2)
-
-[Module Description	7](\#heading=h.2zbgiuw)
-
-[**Module 4:**	7](\#module-4:)
-
-[Suggested Module Names	8](\#suggested-module-names-3)
-
-[Module Description	8](\#heading=h.1egqt2p)
-
-[**Module 5:**	8](\#module-5:)
-
-[Suggested Module Names	8](\#suggested-module-names-4)
-
-[Module Description	9](\#heading=h.3ygebqi)
-
-[**Module 6:**	9](\#module-6:)
-
-[Suggested Module Names	10](\#suggested-module-names-5)
-
-[Module Description	10](\#heading=h.2dlolyb)
-
-[**Module 7:**	11](\#module-7:)
-
-[Suggested Module Names	11](\#suggested-module-names-6)
-
-[Module Description	12](\#heading=h.sqyw64)
-
-[**Module 8:**	12](\#module-8:)
-
-[Suggested Module Names	12](\#suggested-module-names-7)
-
-[Module Description	13](\#heading=h.3cqmetx)
-
-[**Module 9:**	13](\#module-9:)
-
-[Suggested Module Names	14](\#suggested-module-names-8)
-
-[Module Description	14](\#heading=h.1rvwp1q)
-
-[**Module 10:**	14](\#module-10:)
-
-[Suggested Module Names	15](\#suggested-module-names-9)
-
-[Module Description	15](\#heading=h.4bvk7pj)
-
-[**Module 11:**	16](\#module-11:)
-
-[Suggested Module Names	16](\#suggested-module-names-10)
-
-[Module Description	16](\#heading=h.2r0uhxc)
-
-[**Module 12:**	17](\#module-12:)
-
-[Suggested Module Names	17](\#suggested-module-names-11)
-
-[Module Description	18](\#heading=h.1664s55)
-
-[**Module 13:**	18](\#module-13:)
-
-[Suggested Module Names	19](\#suggested-module-names-12)
-
-[Module Description	19](\#heading=h.3q5sasy)
-
-[**Module 14:**	20](\#module-14:)
-
-[Module Description:	20](\#heading=h.25b2l0r)
-
-[**Module 15:**	21](\#module-15:)
-
-[Module Description:	21](\#heading=h.kgcv8k)
-
-[**Module 16:**	22](\#module-16:)
-
-[Module Description:	22](\#heading=h.34g0dwd)
-
-[**Module 17:**	23](\#module-17:)
-
-[Module Description:	23](\#heading=h.1jlao46)
-
-[**Module 18:**	24](\#module-18:)
-
-[Module Description:	24](\#heading=h.43ky6rz)
-
-[**Module 19:**	25](\#module-19:)
-
-[Module Description:	25](\#heading=h.2iq8gzs)
-
-# 
-
-# 
-
-# 
-
-# **List of Modules** {#list-of-modules}
-
-## **Module 1:** {#module-1:}
+## **Module 1:**
 
 -Example of making a taskbar icon in Python  
 -opening local web server\ fast API   
 -clicking the button to open a browser to the local host server
 
-### **Suggested Module Names** {#suggested-module-names}
+### **Suggested Module Names**
 
 1. **FastTaskLaunch**  
 2. **TrayServer**  
@@ -128,16 +14,16 @@
 4. **WebTrayLauncher**  
 5. **TaskbarFastAPI**
 
-### **Module Description** {#module-description}
+### **Module Description**
 
 The FastTaskLaunch module is designed to streamline local development by integrating a FastAPI server with a taskbar icon for quick access. This module creates a taskbar icon that allows users to start a local FastAPI server with a single click. Once the server is running, users can easily open their default web browser to the local server's URL by clicking a button on the taskbar icon. The module is ideal for developers who frequently start and stop local servers during development and want a more efficient way to manage these tasks without relying on command-line operations.
 
-## **Module 2:** {#module-2:}
+## **Module 2:**
 
 -python example to get active windows and get all open windows(titles)  
 -on windows, osx, Linux
 
-### **Suggested Module Names** {#suggested-module-names-1}
+### **Suggested Module Names**
 
 1. **WinTrack**  
 2. **WindowSpy**  
@@ -149,11 +35,11 @@ The FastTaskLaunch module is designed to streamline local development by integra
 
 The WinTrack module is a cross-platform solution designed to retrieve the titles of active and open windows on a user's desktop. This module provides a simple interface for developers and system administrators to monitor window activity across different operating systems, including Windows, macOS, and Linux. WinTrack can identify the currently active window title and list all open window titles on the system, making it useful for automating tasks, tracking user activity, or integrating with other desktop applications. The module leverages platform-specific libraries and command-line tools to ensure compatibility and performance across multiple environments.
 
-## **Module 3:** {#module-3:}
+## **Module 3:**
 
 -python module to take screenshots of screen and save to folder 
 
-### **Suggested Module Names** {#suggested-module-names-2}
+### **Suggested Module Names** 
 
 1. **ScreenSnap**  
 2. **SnapShotter**  
@@ -165,11 +51,11 @@ The WinTrack module is a cross-platform solution designed to retrieve the titles
 
 The ScreenSnap module is a lightweight and versatile tool for capturing screenshots and saving them automatically to a designated folder. Whether you're monitoring a process, creating a time-lapse of your desktop activity, or simply saving snapshots for documentation, ScreenSnap provides an easy-to-use solution. The module generates timestamped filenames for each screenshot, ensuring that no two screenshots are overwritten. With support for different operating systems, ScreenSnap is an ideal utility for developers, content creators, and anyone who needs to automate the process of screen capturing.
 
-## **Module 4:** {#module-4:}
+## **Module 4:**
 
 -python module to get mouse and keyboard activity
 
-### **Suggested Module Names** {#suggested-module-names-3}
+### **Suggested Module Names** 
 
 1. **InputMonitor**  
 2. **KeyMouseTracker**  
@@ -181,11 +67,11 @@ The ScreenSnap module is a lightweight and versatile tool for capturing screensh
 
 The InputMonitor module is a simple yet powerful tool for capturing and logging mouse and keyboard activity on your system. Leveraging the pynput library, this module tracks every mouse click and key press, providing real-time feedback on user interactions. Ideal for use cases such as user behavior analysis, input logging, or developing automated testing scripts, InputMonitor offers a straightforward interface to monitor and record input events across different operating systems. Whether you're a developer looking to track input for debugging or a researcher analyzing user activity, InputMonitor delivers the functionality you need in an easy-to-use package.
 
-## **Module 5:** {#module-5:}
+## **Module 5:** 
 
 -python module to move the mouse and click
 
-### **Suggested Module Names** {#suggested-module-names-4}
+### **Suggested Module Names**
 
 1. **MouseMover**  
 2. **ClickAutomate**  
@@ -197,7 +83,7 @@ The InputMonitor module is a simple yet powerful tool for capturing and logging 
 
 The MouseMover module is a Python utility designed to automate mouse movements and clicks on your system. With simple functions to move the mouse to specific coordinates and perform single or multiple clicks, this module is ideal for tasks such as GUI automation, repetitive task automation, and automated testing. MouseMover leverages the pynput library to provide a seamless and cross-platform solution, making it easy to script and automate mouse interactions with minimal effort. Whether you're a developer looking to streamline workflows or a tester needing to simulate user input, MouseMover delivers precise and reliable mouse control.
 
-## **Module 6:** {#module-6:}
+## **Module 6:**
 
 Python source reflect/ inspect   
 -need names  
@@ -209,7 +95,7 @@ Python source reflect/ inspect
 -get a list of all usage of functions, global, and class. By file, module, class, and function  
  Save the return as JSON. Load /save to format.
 
-### **Suggested Module Names** {#suggested-module-names-5}
+### **Suggested Module Names**
 
 1. **PySourceInspect**  
 2. **CodeReflector**  
@@ -221,7 +107,7 @@ Python source reflect/ inspect
 
 The PySourceInspect module is a comprehensive tool for analyzing Python source code within a given folder. Scanning all .py files provides detailed insights into the structure of the code, including lists of modules, classes, and functions defined in each file. Additionally, it tracks the usage of functions, global variables, and class attributes across the codebase. The results are saved as JSON, allowing for easy review and further processing. This module is particularly useful for code auditing, documentation generation, and understanding large or unfamiliar codebases.
 
-## **Module 7:** {#module-7:}
+## **Module 7:**
 
 Also, make service/ module entry-todo/fill-in  
 -thrift service
@@ -242,7 +128,7 @@ And cache client
 -and provide  
 A new module. Related to thrift client
 
-### **Suggested Module Names** {#suggested-module-names-6}
+### **Suggested Module Names**
 
 1. **ThriftImageService**  
 2. **ImageThrift**  
@@ -254,14 +140,14 @@ A new module. Related to thrift client
 
 The ThriftImageService module is a comprehensive solution designed to handle image retrieval and processing via a Thrift-based service. The module interfaces with S3 to fetch images by path or UUID, compute hashes, retrieve vectors, and manage caching for improved performance. It exposes a set of APIs through a Thrift server, allowing for easy interaction with Thrift clients. The server efficiently processes requests, caches results locally, and provides benchmark capabilities to evaluate performance. This module is ideal for scalable applications that require fast and reliable image processing and retrieval services.
 
-## **Module 8:** {#module-8:}
+## **Module 8:**
 
 UDP server/ UDP client  
 -and test for hole punch  
 -etc and hole punch methods  
 -to test whether can hole punch A to B
 
-### **Suggested Module Names** {#suggested-module-names-7}
+### **Suggested Module Names** 
 
 1. **UDPHolePunch**  
 2. **PunchTest**  
@@ -273,7 +159,7 @@ UDP server/ UDP client
 
 The UDPHolePunch module is a Python-based tool for testing UDP connectivity and NAT traversal techniques. It includes a basic UDP server and client setup, along with methods to attempt UDP hole punching—a technique used to establish direct communication between peers in a NAT environment. The module is designed to help developers and network engineers test and understand the feasibility of direct peer-to-peer connections in various network configurations. With features for both server-client communication and peer-to-peer connection testing, UDPHolePunch is an essential tool for exploring NAT traversal strategies.
 
-## **Module 9:** {#module-9:}
+## **Module 9:** 
 
 ECC-SEP256K1  
 -generate a private key  
@@ -282,7 +168,7 @@ ECC-SEP256K1
 -sign hash  
 -verify signature
 
-### **Suggested Module Names** {#suggested-module-names-8}
+### **Suggested Module Names**
 
 1. **ECCSECP256K1**  
 2. **ECCrypto**  
@@ -294,7 +180,7 @@ ECC-SEP256K1
 
 The ECCSECP256K1 module provides essential cryptographic operations using Elliptic Curve Cryptography with the SECP256k1 curve. This module allows for the generation of private and public keys, hashing of public keys using SHA-256, signing of the hash, and verification of signatures. By utilizing the ecdsa library, this module offers a straightforward interface for secure key management and digital signature operations. It is ideal for applications requiring robust cryptographic functionality, such as blockchain technologies, secure communications, and authentication systems.
 
-## **Module 10:** {#module-10:}
+## **Module 10:** 
 
 -Discld  
 -scan all discs  
@@ -305,7 +191,7 @@ The ECCSECP256K1 module provides essential cryptographic operations using Ellipt
 -type: disc_id  
 -uuid:
 
-### **Suggested Module Names** {#suggested-module-names-9}
+### **Suggested Module Names**
 
 1. **DiscScanner**  
 2. **DiskInspector**  
@@ -317,7 +203,7 @@ The ECCSECP256K1 module provides essential cryptographic operations using Ellipt
 
 The DiscScanner module is a Python tool designed for disk inspection and management. It scans all available disks, identifies their mount points, and checks if the root folder is writable by the current user. The module includes functionality to write a JSON file containing a unique disk ID and UUID to the root of writable disks. This module is useful for disk management tasks, system administration, and automating disk-related processes, ensuring that disks are properly identified and configured with essential metadata.
 
-## **Module 11:** {#module-11:}
+## **Module 11:**
 
 Computer event module/ serialized/ deserialized  
 -events  
@@ -333,7 +219,7 @@ Classes
 -type: EventXXX  
 -uuid:
 
-### **Suggested Module Names** {#suggested-module-names-10}
+### **Suggested Module Names**
 
 1. **EventTracker**  
 2. **EventLogger**  
@@ -345,7 +231,7 @@ Classes
 
 The EventTracker module is a Python library designed for handling and managing computer events. It supports various event types, including new disk ID assignments, disk connections and disconnections, service shutdowns, and connection starts and ends. The module utilizes data classes with statically typed fields to define events, and provides methods for serializing events to JSON and deserializing JSON back into event objects. This module is ideal for systems that need to track and log various system events, enabling efficient storage and retrieval of event data.
 
-## **Module 12:** {#module-12:}
+## **Module 12:**
 
 For scraping we have a module/ need one .md for  
 -schema-youtube  
@@ -356,7 +242,7 @@ For scraping we have a module/ need one .md for
 -schema-website  
 And will fill in later
 
-### **Suggested Module Names** {#suggested-module-names-11}
+### **Suggested Module Names**
 
 1. **ScrapeMaster**  
 2. **DataExtractor**  
@@ -368,7 +254,7 @@ And will fill in later
 
 The ScrapeMaster module is a Python library designed for scraping data from various platforms and sources. It includes specialized classes for extracting information from YouTube, Pinterest, research papers, Telegram, Twitter, and general websites. Each class is tailored to handle the specific structure of the respective platform's pages, providing a consistent interface for scraping and processing data. The module supports extensibility, allowing for additional scrapers to be implemented as needed. It is ideal for data collection tasks, enabling users to efficiently gather and organize information from multiple online sources.
 
-## **Module 13:** {#module-13:}
+## **Module 13:**
 
 -service registry/ service recovery  
 -list of public keys, computer UUIDs, address: port and service type  
@@ -381,7 +267,7 @@ And
 
 Must have methods for clients to register service with a known service discovery server.
 
-### **Suggested Module Names** {#suggested-module-names-12}
+### **Suggested Module Names**
 
 1. **ServiceRegistry**  
 2. **ServiceManager**  
@@ -393,7 +279,7 @@ Must have methods for clients to register service with a known service discovery
 
 The ServiceRegistry module provides a FastAPI-based service registry and recovery system. It enables clients to register and manage various types of services, computers, connections, transports, and routes in a distributed network. With endpoints for service registration, listing known entities, and handling connections and transports, this module supports dynamic service discovery and management. It is designed for environments where service availability, connection management, and transport handling are crucial, offering a centralized way to track and interact with services in a networked system.
 
-## **Module 14:** {#module-14:}
+## **Module 14:**
 
 -Netlib for connection information (voice6)
 
@@ -411,7 +297,7 @@ The ServiceRegistry module provides a FastAPI-based service registry and recover
 
 The "Netlib for connection information (voice6)" module is designed to manage and retrieve comprehensive network connection data specifically tailored for voice communication protocols, particularly those under the "voice6" standard. This module offers functionality to monitor, log, and analyze connection details, including IP addresses, ports, and data flow metrics associated with voice communication. It provides a robust interface for managing connections, ensuring seamless communication, and optimizing network performance for voice-based applications. The module also includes tools for troubleshooting connection issues and maintaining the integrity and quality of voice communication over networks.
 
-## **Module 15:** {#module-15:}
+## **Module 15:**
 
 -STUN module(voice9) for IP addresses
 
@@ -429,7 +315,7 @@ The "Netlib for connection information (voice6)" module is designed to manage an
 
 The "STUN module (voice9) for IP addresses" is a specialized module designed to facilitate the discovery of public IP addresses and NAT traversal, specifically for voice communication systems adhering to the "voice9" protocol. This module leverages the STUN (Session Traversal Utilities for NAT) protocol to help devices determine their public-facing IP address and network configuration. It plays a critical role in enabling peer-to-peer voice communication by ensuring that devices behind NATs or firewalls can establish direct connections. The module is essential for optimizing connectivity and maintaining low-latency communication in voice9-enabled applications, offering a reliable solution for IP address resolution and NAT traversal challenges.
 
-## **Module 16:** {#module-16:}
+## **Module 16:**
 
 -Survey service(voice15)
 
@@ -447,7 +333,7 @@ The "STUN module (voice9) for IP addresses" is a specialized module designed to 
 
 The "Survey service (voice15)" module is designed to facilitate the creation, distribution, and analysis of surveys within voice-based applications following the "voice15" protocol. This module provides a robust framework for collecting user feedback, opinions, and data through voice interactions, enabling developers to integrate survey functionality seamlessly into their voice applications. It supports various question types, and response formats, and provides tools for analyzing results in real-time. The module is ideal for gathering insights from users, conducting market research, or evaluating service quality, all within the context of voice-driven environments.
 
-## **Module 17:** {#module-17:}
+## **Module 17:**
 
 -shadowsocks proxies (voice17)
 
@@ -465,7 +351,7 @@ The "Survey service (voice15)" module is designed to facilitate the creation, di
 
 The "shadowsocks proxies (voice17)" module is designed to provide secure and efficient proxy services tailored for voice applications adhering to the "voice17" protocol. Utilizing the Shadowsocks protocol, this module enables encrypted and fast data transmission, ensuring that voice communications remain private and resistant to censorship or network restrictions. The module is equipped to handle multiple proxy configurations, manage connection stability, and optimize performance for low-latency voice communication. Ideal for scenarios where privacy and security are paramount, this module integrates seamlessly into voice17-based applications, offering a robust solution for secure voice communication over potentially untrusted networks.
 
-## **Module 18:** {#module-18:}
+## **Module 18:**
 
 -download AI models and then analyze their path(Voice18)
 
@@ -483,7 +369,7 @@ The "shadowsocks proxies (voice17)" module is designed to provide secure and eff
 
 The "download AI models and then analyze their path (Voice18)" module is designed to streamline the process of acquiring AI models and subsequently analyzing their storage and usage paths within the context of applications using the "Voice18" protocol. This module provides functionality to securely download AI models, manage their versions, and validate their integrity. It also includes tools to inspect and analyze the paths where these models are stored, ensuring they are correctly integrated and accessible within the voice18-driven application environment. This module is essential for maintaining organized and efficient model management, contributing to the seamless deployment and operation of AI-driven voice applications.
 
-## **Module 19:** {#module-19:}
+## **Module 19:**
 
 -NetHTTP gateway(voice19) for gateway forwarding
 
