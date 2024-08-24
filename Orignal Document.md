@@ -60,9 +60,9 @@
 * Allow us to secure API requests.  
 * Configure the requests library to route HTTP requests through a Shadowsocks proxy, which can be useful for web scraping, API consumption, or other web interactions.
 
-  ## M04:GateForward
+## M04:GateForward
 
-  ### Hex Code:
+### Hex Code:
 `A004`
 
 ### Suggested Module Names::
@@ -159,9 +159,9 @@
 * Provides statistics on packet flow rates and data transfer.  
 * Useful for network performance analysis, bandwidth monitoring, and identifying potential network issues.
 
-  ## M09:FastTaskLaunch
+## M09:FastTaskLaunch
 
-  ### Hex Code:
+### Hex Code:
 `A009`
 
 ### Suggested Module Names:
@@ -177,9 +177,9 @@
 * This module creates a taskbar icon that allows users to start a local FastAPI server with a single click.  
 * Once the server is running, users can easily open their default web browser to the local server's URL by clicking a button on the taskbar icon.
 
-  ## M10:WinTrack
+## M10:WinTrack
 
-  ### Hex Code:
+### Hex Code:
 `A010`
 
 ### Suggested Module Names:
@@ -197,9 +197,9 @@
 * Monitor window activity across different operating systems, including Windows, macOS, and Linux.  
 * WinTrack can identify the currently active window title and list all open window titles on the system, making it useful for automating tasks, tracking user activity, or integrating with other desktop applications. 
 
-  ## M11:ScreenSnap
+## M11:ScreenSnap
 
-  ### Hex Code:
+### Hex Code:
 `A011`
 
 ### Suggested Module Names:
@@ -216,9 +216,9 @@
 * ScreenSnap is an ideal to automate the process of screen capturing.
 
 
-  ## M12:KeyMouseTracker
+## M12:KeyMouseTracker
 
-  ### Hex Code:
+### Hex Code:
 `A012`
 
 ### Suggested Module Names:
@@ -235,10 +235,10 @@
 * Help us to monitor user behavior analysis, and input logging and can use its output in developing automated testing scripts,  
 * InputMonitor offers to record input events across different operating systems. 
 
-  ## M13:MouseMover
+## M13:MouseMover
 
-  ### Hex Code:
-`A014`
+### Hex Code:
+`A013`
 
 ### Suggested Module Names:
 
@@ -252,10 +252,10 @@
 * The MouseMover module is a Python utility designed to automate mouse movements and clicks on your system.   
 * MouseMover leverages the pynput library to provide a seamless and cross-platform solution
 
-  ## M14:PySourceInspect 
+## M14:PySourceInspect 
 
-  ## ### Hex Code:
-`A015`
+### Hex Code:
+`A014`
 
 ### Suggested Module Names:
 
@@ -271,10 +271,10 @@
 * Scanning all .py files provides detailed insights into the structure of the code, including lists of modules, classes, and functions defined in each file.   
 * Additionally, it tracks the usage of functions, global variables, and class attributes across the codebase. The results are saved as JSON, allowing for easy review and further processing. 
 
-  ## M15:ImageThrift
+## M15:ImageThrift
 
-  ### Hex Code:
-`A016`
+### Hex Code:
+`A015`
 
 ### Suggested Module Names:
 
@@ -328,9 +328,9 @@
 *  The server efficiently processes requests, caches results locally, and provides benchmark capabilities to evaluate performance. 
 
 
-  ## M16:UDPHolePunch
+## M16:UDPHolePunch
 
-  ### Hex Code:
+### Hex Code:
 `A016`
 
 ### Suggested Module Names:
@@ -347,12 +347,13 @@
 *  The module is designed to understand the feasibility of direct peer-to-peer connections in various network configurations. 
 
 
-  ## M17:ECCrypto
+## M17:ECCrypto
 
-1. ECC SECP256K1 ### Hex Code:
+### Hex Code
 `A017`
 
 ### Suggested Module Names:  
+1. ECC SECP256K1 ### Hex Code:
 2. Secp256k1 Tools  
 3. ECCSigner  
 4. Secp256k1 Utils
@@ -368,9 +369,9 @@
 *    verification of signatures.  
 * By utilizing the ecdsa library, this module provides functionalities for secure key management and digital signature operations.
 
-  ## M18:DiscScanner
+## M18:DiscScanner
 
-  ### Hex Code:
+### Hex Code:
 `A018`
 
 ### Suggested Module Names:
@@ -387,9 +388,9 @@
 * It Checks if the root folder is writable by the current user  
 * The module includes functionality to write a JSON file containing a unique disk ID and UUID to the root of writable discs.
 
-  ## M19:EventTracker
+## M19:EventTracker
 
-  ### Hex Code:
+### Hex Code:
 `A019`
 
 ### Suggested Module Names:
@@ -418,9 +419,9 @@
 * Ideal for systems that need to track and log system events.  
 * Enables efficient storage and retrieval of event data.
 
-  ## M20:ScrapeMaster
+## M20:ScrapeMaster
 
-  ### Hex Code:
+### Hex Code:
 `A020`
 
 ### Suggested Module Names:
@@ -438,9 +439,9 @@
 * The module supports extensibility, allowing for additional scrapers to be implemented as needed. It is ideal for data collection tasks, enabling users to efficiently gather and organize information from multiple online sources.
 
 
-  ## M21:ServiceRegistry
+## M21:ServiceRegistry
 
-  ### Hex Code:
+### Hex Code:
 `A021`
 
 ### Suggested Module Names:
@@ -457,9 +458,9 @@
 * With endpoints for service registration, listing known entities, and handling connections and transports, this module supports dynamic service discovery and management.  
 *  It is designed for environments where service availability, connection management, and transport handling are crucial, offering a centralized way to track and interact with services in a networked system.
 
-  ## M22: SurveyService 
+## M22: SurveyService 
 
-  ### Hex Code:
+### Hex Code:
 `A022`
 
 ### Suggested Module Names::
@@ -492,9 +493,9 @@
   * Result visualization for enhanced survey-taking experience.
 
 
-  ## M23: ModelDownloader
+## M23: ModelDownloader
 
-  ### Hex Code:
+### Hex Code:
 `A023`
 
 ### Suggested Module Names::
@@ -519,7 +520,7 @@
 * Ideal for machine learning practitioners, researchers, and developers working with Hugging Face models, offering a convenient and secure way to manage model files.
 
 
-  # Coding Pattern
+# Coding Pattern
 
 * The code will be in the Hex pattern for each module.  
 * The code length will be a minimum of 4 digits.  
