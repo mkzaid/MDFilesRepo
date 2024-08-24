@@ -55,6 +55,8 @@
 * Allow us to secure API requests.  
 * Configure the requests library to route HTTP requests through a Shadowsocks proxy, which can be useful for web scraping, API consumption, or other web interactions.
 
+---
+
 ## M04:GateForward
 
 ### Suggested Module Names:
@@ -70,6 +72,8 @@
 * Allow us to set port forwarding rules, route traffic between different network interfaces  
 * Manage gateways in a network environment  
 * Control traffic flow within their network and manage network resources
+
+---
 
 ## M05:SocketStatsAnalyze 
 
@@ -88,6 +92,8 @@
 * And Provides statistics on data sent and received through each socket.  
 * Useful for network administrators and developers to monitor and troubleshoot network connections.
 
+---
+
 ## M06: PortAnalyzer
 
 ### Suggested Module Names:
@@ -104,6 +110,8 @@
 * Detects unauthorized or unusual port activity.  
 * Provides a report of all open ports, including the associated application or process.  
 * It also helps to ensure system security by identifying potential vulnerabilities related to open ports.
+
+---
 
 ## M07: CPUAnalyzer
 
@@ -122,6 +130,8 @@
 * Analyzes CPU performance during specific tasks or over time.  
 * It’s Ideal for optimizing system performance, identifying CPU bottlenecks, and ensuring efficient resource usage.
 
+---
+
 ## M08: PacketCounter 
 
 ### Suggested Module Names:
@@ -139,6 +149,8 @@
 * Provides statistics on packet flow rates and data transfer.  
 * Useful for network performance analysis, bandwidth monitoring, and identifying potential network issues.
 
+---
+
 ## M09:FastTaskLaunch
 
 ### Suggested Module Names:
@@ -153,6 +165,8 @@
 * FastTaskLaunch module is designed to streamline local development by integrating a FastAPI server with a taskbar icon for quick access  
 * This module creates a taskbar icon that allows users to start a local FastAPI server with a single click.  
 * Once the server is running, users can easily open their default web browser to the local server's URL by clicking a button on the taskbar icon.
+
+---
 
 ## M10:WinTrack
 
@@ -171,6 +185,8 @@
 * Monitor window activity across different operating systems, including Windows, macOS, and Linux.  
 * WinTrack can identify the currently active window title and list all open window titles on the system, making it useful for automating tasks, tracking user activity, or integrating with other desktop applications. 
 
+---
+
 ## M11:ScreenSnap
 
 ### Suggested Module Names:
@@ -186,6 +202,7 @@
 * The module generates timestamped filenames for each screenshot, ensuring that no two screenshots are overwritten. With support for different operating systems,  
 * ScreenSnap is an ideal to automate the process of screen capturing.
 
+---
 
 ## M12:KeyMouseTracker
 
@@ -203,6 +220,8 @@
 * Help us to monitor user behavior analysis, and input logging and can use its output in developing automated testing scripts,  
 * InputMonitor offers to record input events across different operating systems. 
 
+---
+
 ## M13:MouseMover
 
 ### Suggested Module Names:
@@ -216,6 +235,8 @@
 
 * The MouseMover module is a Python utility designed to automate mouse movements and clicks on your system.   
 * MouseMover leverages the pynput library to provide a seamless and cross-platform solution
+
+---
 
 ## M14:PySourceInspect 
 
@@ -232,6 +253,8 @@
 * The PySourceInspect module is a comprehensive tool for analyzing Python source code within a given folder.  
 * Scanning all .py files provides detailed insights into the structure of the code, including lists of modules, classes, and functions defined in each file.   
 * Additionally, it tracks the usage of functions, global variables, and class attributes across the codebase. The results are saved as JSON, allowing for easy review and further processing. 
+
+---
 
 ## M15:ImageThrift
 
@@ -286,6 +309,7 @@
 * It exposes a set of APIs through a Thrift server, allowing for easy interaction with Thrift clients.  
 *  The server efficiently processes requests, caches results locally, and provides benchmark capabilities to evaluate performance. 
 
+---
 
 ## M16:UDPHolePunch
 
@@ -302,6 +326,7 @@
 * It includes a basic UDP server and client setup, along with methods to attempt UDP hole punching—a technique used to establish direct communication between peers in a NAT environment.  
 *  The module is designed to understand the feasibility of direct peer-to-peer connections in various network configurations. 
 
+---
 
 ## M17:ECCrypto
 
@@ -322,6 +347,8 @@
 *    verification of signatures.  
 * By utilizing the ecdsa library, this module provides functionalities for secure key management and digital signature operations.
 
+---
+
 ## M18:DiscScanner
 
 ### Suggested Module Names:
@@ -337,6 +364,8 @@
 * It scans all available disks, identifies their mount points  
 * It Checks if the root folder is writable by the current user  
 * The module includes functionality to write a JSON file containing a unique disk ID and UUID to the root of writable discs.
+
+---
 
 ## M19:EventTracker
 
@@ -366,6 +395,8 @@
 * Ideal for systems that need to track and log system events.  
 * Enables efficient storage and retrieval of event data.
 
+---
+
 ## M20:ScrapeMaster
 
 ### Suggested Module Names:
@@ -375,6 +406,7 @@
 3. WebHarvest  
 4. InfoScraper
 
+
 ### Module Description
 
 * The ScrapeMaster module is a Python library designed for scraping data from various platforms and sources.  
@@ -382,6 +414,7 @@
 * Each class is tailored to handle the specific structure of the respective platform's pages, providing a consistent interface for scraping and processing data.   
 * The module supports extensibility, allowing for additional scrapers to be implemented as needed. It is ideal for data collection tasks, enabling users to efficiently gather and organize information from multiple online sources.
 
+---
 
 ## M21:ServiceRegistry
 
@@ -398,6 +431,8 @@
 *  It enables clients to register and manage various types of services, computers, connections, transports, and routes in a distributed network.   
 * With endpoints for service registration, listing known entities, and handling connections and transports, this module supports dynamic service discovery and management.  
 *  It is designed for environments where service availability, connection management, and transport handling are crucial, offering a centralized way to track and interact with services in a networked system.
+
+---
 
 ## M22: SurveyService 
 
@@ -430,6 +465,7 @@
   * Anonymous submissions.  
   * Result visualization for enhanced survey-taking experience.
 
+---
 
 ## M23: ModelDownloader
 
