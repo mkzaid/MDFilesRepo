@@ -6,7 +6,7 @@
 ### Hex Code:
 `A001`
 
-### Suggested Module Names::
+### Suggested Module Names:
 
 1. NetLibTCP  
 2. PyTCPNet  
@@ -25,7 +25,7 @@
 ### Hex Code:
 `A002`
 
-### Suggested Module Names::
+### Suggested Module Names:
 
 1. PySTUN  
 2. STUNNet  
@@ -44,7 +44,7 @@
 ### Hex Code:
 `A003`
 
-### Suggested Module Names::
+### Suggested Module Names:
 
 1. ShadowProxy  
 2. Shadowsocks  
@@ -65,7 +65,7 @@
 ### Hex Code:
 `A004`
 
-### Suggested Module Names::
+### Suggested Module Names:
 
 1. PortForwarder  
 2. NetGate  
@@ -84,7 +84,7 @@
 ### Hex Code:
 `A005`
 
-### Suggested Module Names::
+### Suggested Module Names:
 
 1. SocketMonitor  
 2. NetSocketStats  
@@ -104,7 +104,7 @@
 ### Hex Code:
 `A006`
 
-### Suggested Module Names::
+### Suggested Module Names:
 
 1. PortScanTool  
 2. OpenPortScanner  
@@ -124,7 +124,7 @@
 ### Hex Code:
 `A007`
 
-### Suggested Module Names::
+### Suggested Module Names:
 
 1. CPUPerfMonitor  
 2. CPUUsageTracker  
@@ -144,7 +144,7 @@
 ### Hex Code:
 `A008`
 
-### Suggested Module Names::
+### Suggested Module Names:
 
 1. PacketMonitor  
 2. NetPacketCounter  
@@ -463,7 +463,7 @@
 ### Hex Code:
 `A022`
 
-### Suggested Module Names::
+### Suggested Module Names:
 
 * PySurvey  
 * PollService  
@@ -498,7 +498,7 @@
 ### Hex Code:
 `A023`
 
-### Suggested Module Names::
+### Suggested Module Names:
 
 * HuggingFaceModelManager  
 * ModelFetch  
@@ -817,7 +817,7 @@ This  Python code snippet involves the use of the pedantic library for creating 
 
   **7. Formatted String Conversion (to_formatted_str Method):**
 
-  **def to_formatted_str(self)::** This method returns the UUID as a formatted string, similar to what the __str__ method does.
+  **def to_formatted_str(self):** This method returns the UUID as a formatted string, similar to what the __str__ method does.
 
   **8. Creating Value with Date (_create_value_with_date Method):**
 
