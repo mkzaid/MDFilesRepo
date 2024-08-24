@@ -1,48 +1,57 @@
 
 # Python Network and Utility Modules
 
-## **M01:TCPNetLib**
+## M01:TCPNetLib
 
-**Suggested Module Names:**
+### Hex Code:
+`A001`
 
-1. **NetLibTCP**  
-2. **PyTCPNet**  
-3. **TCPNetworkLib**  
-4. **TCPCommLib**
+### Suggested Module Names::
 
-   ### **Module Description**
+1. NetLibTCP  
+2. PyTCPNet  
+3. TCPNetworkLib  
+4. TCPCommLib
+
+   ### Module Description
 
 * Automatic handling of connection setup, teardown, and reconnection attempts.  
 * High-level functions for sending and receiving data as bytes, strings, or custom objects.  
 * Built-in mechanisms for detecting and managing network errors, with customizable retry logic  
 * Support for asynchronous communication using Python’s asyncio, enhancing scalability.
 
-## **M02:STUNClient**
+## M02:STUNClient
 
-**Suggested Module Names:**
+### Hex Code:
+`A002`
 
-1. **PySTUN**  
-2. **STUNNet**  
-3. **NATTraversal**  
-4. **STUNTools**
+### Suggested Module Names::
 
-   ### **Module Description:**
+1. PySTUN  
+2. STUNNet  
+3. NATTraversal  
+4. STUNTools
+
+   ### Module Description:
 
 * This module is used to get Ip Address, the type of NAT.  
 * Determine if peer-to-peer connections are possible.  
 * Enable direct communication between devices across different network environments.  
 * Provide configuration to establish a connection in challenging network conditions.
 
-## **M03:ShadowsocksProxy**
+## M03:ShadowsocksProxy
 
-**Suggested Module Names:**
+### Hex Code:
+`A003`
 
-1. **ShadowProxy**  
-2. **Shadowsocks**  
-3. **ProxySocks**  
-4. **SecureProxy**
+### Suggested Module Names::
 
-   ### **Module Description:**
+1. ShadowProxy  
+2. Shadowsocks  
+3. ProxySocks  
+4. SecureProxy
+
+   ### Module Description:
 
 * Create shadowsocks proxies using this library.  
 * This module used to protect privacy and bypass internet censorship    
@@ -51,32 +60,38 @@
 * Allow us to secure API requests.  
 * Configure the requests library to route HTTP requests through a Shadowsocks proxy, which can be useful for web scraping, API consumption, or other web interactions.
 
-  ## **M04:GateForward**
+  ## M04:GateForward
 
-  **Suggested Module Names:**
+  ### Hex Code:
+`A004`
 
-1. **PortForwarder**  
-2. **NetGate**  
-3. **PyForward**  
-4. **GatewayRouter**
+### Suggested Module Names::
 
-###   **Module Description:**
+1. PortForwarder  
+2. NetGate  
+3. PyForward  
+4. GatewayRouter
+
+###   Module Description:
 
 * Python tool for network port forwarding and gateway management  
 * Allow us to set port forwarding rules, route traffic between different network interfaces  
 * Manage gateways in a network environment  
 * Control traffic flow within their network and manage network resources
 
-## **M05:SocketStatsAnalyze** 
+## M05:SocketStatsAnalyze 
 
-**Suggested Module Names:**
+### Hex Code:
+`A005`
 
-1. **SocketMonitor**  
-2. **NetSocketStats**  
-3. **SocketTracker**  
-4. **SocketInsight**
+### Suggested Module Names::
 
-###  **Module Description:** 
+1. SocketMonitor  
+2. NetSocketStats  
+3. SocketTracker  
+4. SocketInsight
+
+###  Module Description: 
 
 * It Analyzes socket connections on your system.  
 * Tracks active socket connections, including IP addresses and ports.  
@@ -84,16 +99,19 @@
 * And Provides statistics on data sent and received through each socket.  
 * Useful for network administrators and developers to monitor and troubleshoot network connections.
 
-## **M06: PortAnalyzer**
+## M06: PortAnalyzer
 
-**Suggested Module Names:**
+### Hex Code:
+`A006`
 
-1. **PortScanTool**  
-2. **OpenPortScanner**  
-3. **PortSecurityCheck**  
-4. **PortInspector**
+### Suggested Module Names::
 
-## **Module Description:**
+1. PortScanTool  
+2. OpenPortScanner  
+3. PortSecurityCheck  
+4. PortInspector
+
+## Module Description:
 
 * It Scans and analyzes open ports in the system.  
 * Identifies open ports and the services running on them.  
@@ -101,16 +119,19 @@
 * Provides a report of all open ports, including the associated application or process.  
 * It also helps to ensure system security by identifying potential vulnerabilities related to open ports.
 
-## **M07: CPUAnalyzer**
+## M07: CPUAnalyzer
 
-**Suggested Module Names:**
+### Hex Code:
+`A007`
 
-1. **CPUPerfMonitor**  
-2. **CPUUsageTracker**  
-3. **SysCPUAnalyzer**  
-4. **CPUInsight**
+### Suggested Module Names::
 
-## **Module Description:** 
+1. CPUPerfMonitor  
+2. CPUUsageTracker  
+3. SysCPUAnalyzer  
+4. CPUInsight
+
+## Module Description: 
 
 * It Monitors and analyzes CPU usage and performance.  
 * Tracks real-time CPU usage for each core.  
@@ -118,16 +139,19 @@
 * Analyzes CPU performance during specific tasks or over time.  
 * It’s Ideal for optimizing system performance, identifying CPU bottlenecks, and ensuring efficient resource usage.
 
-## **M08: PacketCounter** 
+## M08: PacketCounter 
 
-**Suggested Module Names:**
+### Hex Code:
+`A008`
 
-1. **PacketMonitor**  
-2. **NetPacketCounter**  
-3. **PacketFlowStats**  
-4. **NetworkPacketAnalyzer**
+### Suggested Module Names::
 
-## **Module Description:**
+1. PacketMonitor  
+2. NetPacketCounter  
+3. PacketFlowStats  
+4. NetworkPacketAnalyzer
+
+## Module Description:
 
 * It is used to count and analyze network packets.  
 * It monitors the number of packets sent and received over the network.  
@@ -135,110 +159,131 @@
 * Provides statistics on packet flow rates and data transfer.  
 * Useful for network performance analysis, bandwidth monitoring, and identifying potential network issues.
 
-  ## **M09:FastTaskLaunch**
+  ## M09:FastTaskLaunch
 
-  **Suggested Module Names**
+  ### Hex Code:
+`A009`
 
-1. **TrayServer**  
-2. **QuickServeIcon**  
-3. **WebTrayLauncher**  
-4. **TaskbarFastAPI**
+### Suggested Module Names:
 
-   ### **Module Description**
+1. TrayServer  
+2. QuickServeIcon  
+3. WebTrayLauncher  
+4. TaskbarFastAPI
+
+   ### Module Description
 
 * FastTaskLaunch module is designed to streamline local development by integrating a FastAPI server with a taskbar icon for quick access  
 * This module creates a taskbar icon that allows users to start a local FastAPI server with a single click.  
 * Once the server is running, users can easily open their default web browser to the local server's URL by clicking a button on the taskbar icon.
 
-  ## **M10:WinTrack**
+  ## M10:WinTrack
 
-  **Suggested Module Names**
+  ### Hex Code:
+`A010`
 
-1. **WindowSpy**  
-2. **MultiOSWindow**  
-3. **ActiveWinScanner**  
-4. **OSWindowLister**
+### Suggested Module Names:
+
+1. WindowSpy  
+2. MultiOSWindow  
+3. ActiveWinScanner  
+4. OSWindowLister
 
    ### 
 
-   ### **Module Description**
+   ### Module Description
 
 * The WinTrack module is a cross-platform solution designed to retrieve the titles of active and open windows on a user's desktop  
 * Monitor window activity across different operating systems, including Windows, macOS, and Linux.  
 * WinTrack can identify the currently active window title and list all open window titles on the system, making it useful for automating tasks, tracking user activity, or integrating with other desktop applications. 
 
-  ## **M11:ScreenSnap**
+  ## M11:ScreenSnap
 
-  **Suggested Module Names**
+  ### Hex Code:
+`A011`
 
-1. **SnapShotter**  
-2. **ScreenCap**  
-3. **AutoScreenSave**  
-4. **ScreenCapturePro**
+### Suggested Module Names:
 
-   ### **Module Description**
+1. SnapShotter  
+2. ScreenCap  
+3. AutoScreenSave  
+4. ScreenCapturePro
+
+   ### Module Description
 
 * The ScreenSnap module is a lightweight and versatile tool for capturing screenshots and saving them automatically to a designated folder.  
 * The module generates timestamped filenames for each screenshot, ensuring that no two screenshots are overwritten. With support for different operating systems,  
 * ScreenSnap is an ideal to automate the process of screen capturing.
 
 
-  ## **M12:KeyMouseTracker**
+  ## M12:KeyMouseTracker
 
-  **Suggested Module Names**
+  ### Hex Code:
+`A012`
 
-1. **InputMonitor**  
-2. **PyInputLogger**  
-3. **ActivityCapture**  
-4. **MouseKeyMonitor**
+### Suggested Module Names:
 
-   ### **Module Description** 
+1. InputMonitor  
+2. PyInputLogger  
+3. ActivityCapture  
+4. MouseKeyMonitor
+
+   ### Module Description 
 
 * The InputMonitor module is a simple yet powerful tool for capturing and logging mouse and keyboard activity on your system.  
 * It uses the pynput library, this module tracks every mouse click and key press, providing real-time feedback on user interactions.  
 * Help us to monitor user behavior analysis, and input logging and can use its output in developing automated testing scripts,  
 * InputMonitor offers to record input events across different operating systems. 
 
-  ## **M13:MouseMover**
+  ## M13:MouseMover
 
-  **Suggested Module Names**
+  ### Hex Code:
+`A014`
 
-1. **ClickAutomate**  
-2. **PyMouseControl**  
-3. **AutoClicker**  
-4. **MouseMotion**
+### Suggested Module Names:
 
-   ### **Module Description** 
+1. ClickAutomate  
+2. PyMouseControl  
+3. AutoClicker  
+4. MouseMotion
+
+   ### Module Description 
 
 * The MouseMover module is a Python utility designed to automate mouse movements and clicks on your system.   
 * MouseMover leverages the pynput library to provide a seamless and cross-platform solution
 
-  ## **M14:PySourceInspect** 
+  ## M14:PySourceInspect 
 
-  ## **Suggested Module Names**
+  ## ### Hex Code:
+`A015`
 
-1. **PySourceInspect**  
-2. **CodeReflector**  
-3. **SourceAnalyzer**  
-4. **PyCodeScanner**  
-5. **InspectoPy**
+### Suggested Module Names:
 
-   ### **Module Description**
+1. PySourceInspect  
+2. CodeReflector  
+3. SourceAnalyzer  
+4. PyCodeScanner  
+5. InspectoPy
+
+   ### Module Description
 
 * The PySourceInspect module is a comprehensive tool for analyzing Python source code within a given folder.  
 * Scanning all .py files provides detailed insights into the structure of the code, including lists of modules, classes, and functions defined in each file.   
 * Additionally, it tracks the usage of functions, global variables, and class attributes across the codebase. The results are saved as JSON, allowing for easy review and further processing. 
 
-  ## **M15:ImageThrift**
+  ## M15:ImageThrift
 
-  **Suggested Module Names**
+  ### Hex Code:
+`A016`
 
-1. **ImageThrift**  
-2. **S3ThriftCache**  
-3. **ThriftImageHandler**  
-4. **ImageThriftServer**
+### Suggested Module Names:
 
-   ### **Module Description**
+1. ImageThrift  
+2. S3ThriftCache  
+3. ThriftImageHandler  
+4. ImageThriftServer
+
+   ### Module Description
 
     make service/ module entry-todo/fill-in
 
@@ -283,30 +328,36 @@
 *  The server efficiently processes requests, caches results locally, and provides benchmark capabilities to evaluate performance. 
 
 
-  ## **M16:UDPHolePunch**
+  ## M16:UDPHolePunch
 
-  **Suggested Module Names**
+  ### Hex Code:
+`A016`
 
-1. **PunchTest**  
-2. **UDPHolePuncher**  
-3. **NATHolePunch**  
-4. **UDPConnect**
+### Suggested Module Names:
 
-   ### **Module Description**
+1. PunchTest  
+2. UDPHolePuncher  
+3. NATHolePunch  
+4. UDPConnect
+
+   ### Module Description
 
 * The UDPHolePunch module is a Python-based tool for testing UDP connectivity and NAT traversal techniques.   
 * It includes a basic UDP server and client setup, along with methods to attempt UDP hole punching—a technique used to establish direct communication between peers in a NAT environment.  
 *  The module is designed to understand the feasibility of direct peer-to-peer connections in various network configurations. 
 
 
-  ## **M17:ECCrypto**
+  ## M17:ECCrypto
 
-1. **ECC SECP256K1 Suggested Module Names**  
-2. **Secp256k1 Tools**  
-3. **ECCSigner**  
-4. **Secp256k1 Utils**
+1. ECC SECP256K1 ### Hex Code:
+`A017`
 
-   ### **Module Description**
+### Suggested Module Names:  
+2. Secp256k1 Tools  
+3. ECCSigner  
+4. Secp256k1 Utils
+
+   ### Module Description
 
 * The ECC SECP256K1 module provides essential cryptographic operations using Elliptic Curve Cryptography with the SECP256k1 curve.  
 * This module allows for the generation of   
@@ -317,34 +368,40 @@
 *    verification of signatures.  
 * By utilizing the ecdsa library, this module provides functionalities for secure key management and digital signature operations.
 
-  ## **M18:DiscScanner**
+  ## M18:DiscScanner
 
-  **Suggested Module Names**
+  ### Hex Code:
+`A018`
 
-1. **DiskInspector**  
-2. **DiscWriter**  
-3. **MountPointChecker**  
-4. **DiskUtil**
+### Suggested Module Names:
 
-   ### **Module Description**
+1. DiskInspector  
+2. DiscWriter  
+3. MountPointChecker  
+4. DiskUtil
+
+   ### Module Description
 
 * The DiscScanner module is a Python tool designed for disk inspection and management.   
 * It scans all available disks, identifies their mount points  
 * It Checks if the root folder is writable by the current user  
 * The module includes functionality to write a JSON file containing a unique disk ID and UUID to the root of writable discs.
 
-  ## **M19:EventTracker**
+  ## M19:EventTracker
 
-  **Suggested Module Names**
+  ### Hex Code:
+`A019`
 
-1. **EventLogger**  
-2. **EventSerializer**  
-3. **EventManager**  
-4. **SystemEvents**
+### Suggested Module Names:
+
+1. EventLogger  
+2. EventSerializer  
+3. EventManager  
+4. SystemEvents
 
    ### 
 
-   ### **Module Description**
+   ### Module Description
 
 * The EventTracker module is a Python library Handles and  
   manages computer events in Python.  
@@ -361,16 +418,19 @@
 * Ideal for systems that need to track and log system events.  
 * Enables efficient storage and retrieval of event data.
 
-  ## **M20:ScrapeMaster**
+  ## M20:ScrapeMaster
 
-  **Suggested Module Names**
+  ### Hex Code:
+`A020`
 
-1. **DataExtractor**  
-2. **ScraperSuite**  
-3. **WebHarvest**  
-4. **InfoScraper**
+### Suggested Module Names:
 
-### **Module Description**
+1. DataExtractor  
+2. ScraperSuite  
+3. WebHarvest  
+4. InfoScraper
+
+### Module Description
 
 * The ScrapeMaster module is a Python library designed for scraping data from various platforms and sources.  
 *  It includes specialized classes for extracting information from YouTube, Pinterest, research papers, Telegram, Twitter, and general websites.   
@@ -378,32 +438,38 @@
 * The module supports extensibility, allowing for additional scrapers to be implemented as needed. It is ideal for data collection tasks, enabling users to efficiently gather and organize information from multiple online sources.
 
 
-  ## **M21:ServiceRegistry**
+  ## M21:ServiceRegistry
 
-  **Suggested Module Names**
+  ### Hex Code:
+`A021`
+
+### Suggested Module Names:
 
 1. ServiceManager  
 2. ServiceDiscovery  
 3. ServiceHub  
 4. ServiceTracker
 
-   ### **Module Description**
+   ### Module Description
 
 * The ServiceRegistry module provides a FastAPI-based service registry and recovery system.  
 *  It enables clients to register and manage various types of services, computers, connections, transports, and routes in a distributed network.   
 * With endpoints for service registration, listing known entities, and handling connections and transports, this module supports dynamic service discovery and management.  
 *  It is designed for environments where service availability, connection management, and transport handling are crucial, offering a centralized way to track and interact with services in a networked system.
 
-  ## **M22: SurveyService** 
+  ## M22: SurveyService 
 
-  **Suggested Module Names:**
+  ### Hex Code:
+`A022`
 
-* **PySurvey**  
-* **PollService**  
-* **SurveyManager**  
-* **FeedbackCollector**
+### Suggested Module Names::
 
-### **Module Description:**
+* PySurvey  
+* PollService  
+* SurveyManager  
+* FeedbackCollector
+
+### Module Description:
 
 * Python-based framework for creating, managing, and collecting survey responses.  
 * Allows users to design customizable surveys with various question types, including:  
@@ -426,16 +492,19 @@
   * Result visualization for enhanced survey-taking experience.
 
 
-  ## **M23: ModelDownloader**
+  ## M23: ModelDownloader
 
-  **Suggested Module Names:**
+  ### Hex Code:
+`A023`
 
-* **HuggingFaceModelManager**  
-* **ModelFetch**  
-* **PyModelDownloader**  
-* **HuggingFaceLoader**
+### Suggested Module Names::
 
-  ### **Module Description:**
+* HuggingFaceModelManager  
+* ModelFetch  
+* PyModelDownloader  
+* HuggingFaceLoader
+
+  ### Module Description:
 
 
 * Python tool designed to streamline downloading machine learning models from Hugging Face.  
@@ -450,7 +519,7 @@
 * Ideal for machine learning practitioners, researchers, and developers working with Hugging Face models, offering a convenient and secure way to manage model files.
 
 
-  # **Coding Pattern**
+  # Coding Pattern
 
 * The code will be in the Hex pattern for each module.  
 * The code length will be a minimum of 4 digits.  
@@ -463,7 +532,7 @@
 
 | Module Name | Code |
 | :---- | :---- |
-|   **TCP Netlib** | M01 |
+|   TCP Netlib| M01 |
 |   STUNClient | M02 |
 |   Shadowsocks Proxy | M03 |
 |   GateForward | M04 |
@@ -487,7 +556,7 @@
 | SurveyService | M22 |
 | ModelDownloader | M23 |
 
-# **Description of screenshots**
+# Description of screenshots
 
 **//Image 1//**
 
@@ -843,8 +912,5 @@ This  Python code snippet involves the use of the pedantic library for creating 
 
 
   
-
-
-
 
 
