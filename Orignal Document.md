@@ -13,7 +13,7 @@
 3. TCPNetworkLib  
 4. TCPCommLib
 
-   ### Module Description
+### Module Description
 
 * Automatic handling of connection setup, teardown, and reconnection attempts.  
 * High-level functions for sending and receiving data as bytes, strings, or custom objects.  
@@ -32,7 +32,7 @@
 3. NATTraversal  
 4. STUNTools
 
-   ### Module Description:
+### Module Description:
 
 * This module is used to get Ip Address, the type of NAT.  
 * Determine if peer-to-peer connections are possible.  
@@ -51,7 +51,7 @@
 3. ProxySocks  
 4. SecureProxy
 
-   ### Module Description:
+### Module Description:
 
 * Create shadowsocks proxies using this library.  
 * This module used to protect privacy and bypass internet censorship    
@@ -72,7 +72,7 @@
 3. PyForward  
 4. GatewayRouter
 
-###   Module Description:
+### Module Description:
 
 * Python tool for network port forwarding and gateway management  
 * Allow us to set port forwarding rules, route traffic between different network interfaces  
@@ -91,7 +91,7 @@
 3. SocketTracker  
 4. SocketInsight
 
-###  Module Description: 
+### Module Description: 
 
 * It Analyzes socket connections on your system.  
 * Tracks active socket connections, including IP addresses and ports.  
@@ -171,7 +171,7 @@
 3. WebTrayLauncher  
 4. TaskbarFastAPI
 
-   ### Module Description
+### Module Description
 
 * FastTaskLaunch module is designed to streamline local development by integrating a FastAPI server with a taskbar icon for quick access  
 * This module creates a taskbar icon that allows users to start a local FastAPI server with a single click.  
@@ -191,7 +191,7 @@
 
    ### 
 
-   ### Module Description
+### Module Description
 
 * The WinTrack module is a cross-platform solution designed to retrieve the titles of active and open windows on a user's desktop  
 * Monitor window activity across different operating systems, including Windows, macOS, and Linux.  
@@ -209,7 +209,7 @@
 3. AutoScreenSave  
 4. ScreenCapturePro
 
-   ### Module Description
+### Module Description
 
 * The ScreenSnap module is a lightweight and versatile tool for capturing screenshots and saving them automatically to a designated folder.  
 * The module generates timestamped filenames for each screenshot, ensuring that no two screenshots are overwritten. With support for different operating systems,  
@@ -228,7 +228,7 @@
 3. ActivityCapture  
 4. MouseKeyMonitor
 
-   ### Module Description 
+### Module Description 
 
 * The InputMonitor module is a simple yet powerful tool for capturing and logging mouse and keyboard activity on your system.  
 * It uses the pynput library, this module tracks every mouse click and key press, providing real-time feedback on user interactions.  
@@ -247,7 +247,7 @@
 3. AutoClicker  
 4. MouseMotion
 
-   ### Module Description 
+### Module Description 
 
 * The MouseMover module is a Python utility designed to automate mouse movements and clicks on your system.   
 * MouseMover leverages the pynput library to provide a seamless and cross-platform solution
@@ -265,7 +265,7 @@
 4. PyCodeScanner  
 5. InspectoPy
 
-   ### Module Description
+### Module Description
 
 * The PySourceInspect module is a comprehensive tool for analyzing Python source code within a given folder.  
 * Scanning all .py files provides detailed insights into the structure of the code, including lists of modules, classes, and functions defined in each file.   
@@ -283,41 +283,41 @@
 3. ThriftImageHandler  
 4. ImageThriftServer
 
-   ### Module Description
+### Module Description
 
-    make service/ module entry-todo/fill-in
+  make service/ module entry-todo/fill-in
 
-   -thrift service
+  -thrift service
 
    
 
-   -for images by path(s3)
+  -for images by path(s3)
 
-   -images by uuid(s3)
+  -images by uuid(s3)
 
-   -vae by uuid
+  -vae by uuid
 
-   -get hash from image uid
+  -get hash from image uid
 
-   -get uuid by hash
+  -get uuid by hash
 
-   -get path by uuid
+ -get path by uuid
 
-   -cliph/ vector by uuid
+  -cliph/ vector by uuid
 
-   A thrift server that makes s3 requests and exposes APIS to thrift client
+  A thrift server that makes s3 requests and exposes APIS to thrift client
 
-   -and benchmark
+ -and benchmark
 
-   -fill in details later
+  -fill in details later
 
-   –
+  –
 
-   And cache client
+  And cache client
 
-   -saves results locally
+  -saves results locally
 
-   -and provide
+  -and provide
 
    
 
@@ -340,7 +340,7 @@
 3. NATHolePunch  
 4. UDPConnect
 
-   ### Module Description
+### Module Description
 
 * The UDPHolePunch module is a Python-based tool for testing UDP connectivity and NAT traversal techniques.   
 * It includes a basic UDP server and client setup, along with methods to attempt UDP hole punching—a technique used to establish direct communication between peers in a NAT environment.  
@@ -358,7 +358,7 @@
 3. ECCSigner  
 4. Secp256k1 Utils
 
-   ### Module Description
+### Module Description
 
 * The ECC SECP256K1 module provides essential cryptographic operations using Elliptic Curve Cryptography with the SECP256k1 curve.  
 * This module allows for the generation of   
@@ -381,7 +381,7 @@
 3. MountPointChecker  
 4. DiskUtil
 
-   ### Module Description
+### Module Description
 
 * The DiscScanner module is a Python tool designed for disk inspection and management.   
 * It scans all available disks, identifies their mount points  
@@ -402,7 +402,7 @@
 
    ### 
 
-   ### Module Description
+### Module Description
 
 * The EventTracker module is a Python library Handles and  
   manages computer events in Python.  
@@ -451,7 +451,7 @@
 3. ServiceHub  
 4. ServiceTracker
 
-   ### Module Description
+### Module Description
 
 * The ServiceRegistry module provides a FastAPI-based service registry and recovery system.  
 *  It enables clients to register and manage various types of services, computers, connections, transports, and routes in a distributed network.   
@@ -505,7 +505,7 @@
 * PyModelDownloader  
 * HuggingFaceLoader
 
-  ### Module Description:
+### Module Description:
 
 
 * Python tool designed to streamline downloading machine learning models from Hugging Face.  
@@ -559,7 +559,57 @@
 
 # Description of screenshots
 
-**//Image 1//**
+```python
+from pydantic import BaseModel, Field, HttpUrl 
+import datetime
+import numpy as np
+from uuid_generator import generate_uuid
+
+class SearchResult(BaseModel):
+    type: str = "SearchResult"
+    uuid: np.int64
+    video_title: str
+    video_id: str
+    video_url: HttpUrl
+    video_view_count: int
+    video_date: str
+    video_likes: int
+    channel_url: HttpUrl
+    video_duration: int
+    video_number_of_subscribers: int
+    video_subtitles_available: bool = False
+    video_published_date: str
+    video_description: str = None
+
+# Example usage
+uuid = np.int64(generate_uuid(datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.&f")))
+search_result_data = {
+    "uuid": uuid,
+    "video_title": "Web Scraping vs Web Crawling Explained",
+    "video_id": "TLosoD249NA",
+    "video_url": "https://www.youtube.com/watch?v=TLosoD249NA", 
+    "video_view_count": 31942,
+    "video_date": "2020-06-24T00:00:00.000Z",
+    "video_likes": 477,
+    "channel_url": "https://www.youtube.com/@zytedata",
+    "video_number_of_subscribers": 3798,
+    "video_duration": "00:03:14",
+    "video_subtitles_available": True,
+    "video_published_date": "2020-06-20T00:00:00.000Z",
+    "video_description": "An explanation of the differences between web scraping and web crawling."
+}
+
+# Create an instance of SearchResult
+search_result = SearchResult(**search_result_data)
+
+# Convert to JSON
+json_str = search_result.json()
+print(json_str)
+
+# Parse from JSON
+parsed_result = SearchResult.parse_raw(json_str)
+print(parsed_result)
+```
 
 ## **SearchResult** 
 
@@ -607,7 +657,62 @@ This  Python code snippet involves the use of the pedantic library for creating 
 
   It demonstrates how to define a data model using pedantic to validate and manage video search results. It shows how to generate a UUID, create an instance of the model, serialize it to JSON, and then deserialize it back into a Python object.
 
-  **//Image 2//**
+ ```python
+from pydantic import BaseModel, Field, ValidationError, validator
+import datetime
+import numpy as np
+from typing import List, Optional
+from uuid_generator import generate_uuid
+
+class VideoPageData(BaseModel):
+    type: str = "VideoPageData"
+    uuid: np.int64
+    video_id: str
+    video_url: str
+    video_title: str
+    video_thumbnail: str
+    video_description: str
+    channel_id: str
+    video_resolutions: List[str]
+    video_metadata: dict
+    video_scraped: bool
+    video_published_date: str
+    video_data_field: Optional[str]
+
+# Example usage
+uuid = np.int64(generate_uuid(datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.&f")))
+video_data = {
+    "uuid": uuid,
+    "video_id": "KaXJDKCvbHY",
+    "video_url": "https://youtu.be/KaXJDKCvbHY",
+    "video_title": "Sample Video",
+    "video_thumbnail": "http://example.com/thumbnail.jpg",
+    "video_description": "This is a sample video description.",
+    "channel_id": "channel123",
+    "video_resolutions": ["1080p", "720p"],
+    "video_metadata": {
+        "views": 1000,
+        "likes": 100,
+        "dislikes": 10,
+        "publishedAt": "2023-01-01T00:00:00Z",
+        "duration": "00:03:14"
+    },
+    "video_scraped": True,
+    "video_published_date": "2023-01-01T12:00:00Z",
+    "video_data_field": "additional data"
+}
+
+# Create an instance of VideoPageData
+video_page_data = VideoPageData(**video_data)
+
+# Convert to JSON
+json_str = video_page_data.json()
+print(json_str)
+
+# Parse from JSON
+parsed_data = VideoPageData.parse_raw(json_str)
+print(parsed_data)
+```
 
   ## **VideoPageData** 
 
@@ -656,7 +761,38 @@ This  Python code snippet involves the use of the pedantic library for creating 
   It demonstrates how to define a more complex data model using `pedantic` to manage detailed information about a video page. The model includes multiple fields, some of which are optional or contain lists or dictionaries. The code shows how to generate a UUID, create an instance of the model with detailed video data, serialize it to JSON, and then deserialize it back into a Python object.
 
 
-  **//Image 3//**
+```python
+from pydantic import BaseModel, Field
+import datetime
+import numpy as np
+from uuid_generator import generate_uuid
+
+class ChannelVideo(BaseModel):
+    type: str = "ChannelVideo"
+    uuid: np.int64
+    channel_uuid: int
+    video_uuid: int
+
+# Example usage
+channel_uuid = np.int64(generate_uuid(datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%f")))
+video_uuid = np.int64(generate_uuid(datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%f")))
+
+channel_video_data = {
+    "channel_uuid": channel_uuid,
+    "video_uuid": video_uuid,
+}
+
+# Create an instance of ChannelVideo
+channel_video = ChannelVideo(**channel_video_data)
+
+# Convert to JSON
+json_str = channel_video.json()
+print(json_str)
+
+# Parse from JSON
+parsed_channel_video = ChannelVideo.parse_raw(json_str)
+print(parsed_channel_video)
+```
 
   ##  **ChannelVideo**
 
@@ -695,7 +831,35 @@ This  Python code snippet involves the use of the pedantic library for creating 
   Here we are defining a straightforward data model using `pedantic` to manage the relationship between a channel and a video. The model includes only three fields: a UUID for the channel-video association, a UUID for the channel, and a UUID for the video. The code shows how to generate UUIDs, create an instance of the model, serialize it to JSON, and then deserialize it back into a Python object.
 
 
-  **//Image 4//**
+```python
+from pydantic import BaseModel, Field, HttpUrl
+import datetime
+import numpy as np
+from uuid_generator import generate_uuid
+
+class Channel(BaseModel):
+    type: str = "Channel"
+    uuid: np.int64
+    channel_url: HttpUrl
+
+# Example usage
+uuid = np.int64(generate_uuid(datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%f")))
+channel_data = {
+    "uuid": uuid,
+    "channel_url": "https://www.youtube.com/@zytedata",
+}
+
+# Create an instance of Channel
+channel = Channel(**channel_data)
+
+# Convert to JSON
+json_str = channel.json()
+print(json_str)
+
+# Parse from JSON
+parsed_channel = Channel.parse_raw(json_str)
+print(parsed_channel)
+```
 
   ## **Channel**
 
@@ -734,7 +898,35 @@ This  Python code snippet involves the use of the pedantic library for creating 
   This script demonstrates how to define a data model using pydantic to manage and validate information about a channel. The model includes a few key fields, such as a UUID and a validated URL, making it robust for handling channel data. The example usage shows how to generate a UUID, create an instance of the model, serialize it to JSON, and then deserialize it back into a Python object.
 
 
-  **//Image 5 //**
+```python
+from pydantic import BaseModel, Field, HttpUrl
+import datetime
+import numpy as np
+from uuid_generator import generate_uuid
+
+class VideoPage(BaseModel):
+    type: str = "VideoPage"
+    uuid: np.int64
+    video_url: HttpUrl
+
+# Example usage
+uuid = np.int64(generate_uuid(datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%f")))
+video_page = {
+    "uuid": uuid,
+    "video_url": "https://www.youtube.com/watch?v=TLosoD249NA",
+}
+
+# Create an instance of VideoPage
+video_page = VideoPage(**video_page)
+
+# Convert to JSON
+json_str = video_page.json()
+print(json_str)
+
+# Parse from JSON
+parsed_video_page = VideoPage.parse_raw(json_str)
+print(parsed_video_page)
+```
 
 
   ## **Python script**
@@ -776,8 +968,57 @@ This  Python code snippet involves the use of the pedantic library for creating 
 
   This script demonstrates how to define a VideoPage data model using pydantic to manage and validate information about a video page. The model includes fields such as a UUID and a validated URL, making it suitable for handling video-related data. The example shows how to generate a UUID, create an instance of the model, serialize it to JSON, and then deserialize it back into a Python object.
 
-  **//Image 6//**
+```python
+import secrets
+from datetime import datetime, timezone
+from typing import List
 
+class Uuid64:
+    _value: int = 0
+
+    def __init__(self):
+        # Create with the current UTC date.
+        self._create_value_with_date(datetime.now(timezone.utc))
+
+    def __str__(self):
+        hex_string = self._value.to_bytes(8, 'big').hex()
+        return (hex_string[0:4] + '-' + hex_string[4:8] + '-' + hex_string[8:12] + '-' + hex_string[12:16]).upper()
+
+    @staticmethod
+    def from_date_string(date: str, date_formats: List[str]):
+        if not date_formats:
+            raise ValueError(f"date_formats must include at least one format")
+        for fmt in date_formats:
+            try:
+                date_value = datetime.strptime(date, fmt)
+                break
+            except ValueError:
+                continue
+        else:
+            raise ValueError(f"time data '{date}' does not match any of the provided formats")
+        instance = Uuid64()
+        instance._create_value_with_date(date_value)
+        return instance
+
+    @staticmethod
+    def from_mongo_value(value: int):
+        if value < 0 or value > 18446744073709551615:
+            raise ValueError(f"the value is not a valid uuid")
+        instance = Uuid64()
+        instance._value = value
+        return instance
+
+    def to_mongo_value(self):
+        return self._value
+
+    def to_formatted_str(self):
+        return str(self)
+
+    def _create_value_with_date(self, date_value: datetime):
+        unix_time_32bit = int(date_value.timestamp()) & 0xFFFFFFFF
+        random_32bit = int(secrets.randbits(32)) & 0xFFFFFFFF
+        self._value = (random_32bit & 0xFFFFFFFF) | (unix_time_32bit << 32)
+```
   ## **Uuid64**
 
   It shows the implementation of a `Uuid64` class in Python, which is designed to generate and manipulate 64-bit UUIDs based on date and time. Here's a detailed explanation of the class and its methods:
