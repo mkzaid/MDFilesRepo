@@ -3,9 +3,6 @@
 
 ## M01:TCPNetLib
 
-### Hex Code:
-`A001`
-
 ### Suggested Module Names:
 
 1. NetLibTCP  
@@ -20,10 +17,9 @@
 * Built-in mechanisms for detecting and managing network errors, with customizable retry logic  
 * Support for asynchronous communication using Python’s asyncio, enhancing scalability.
 
-## M02:STUNClient
+---
 
-### Hex Code:
-`A002`
+## M02:STUNClient
 
 ### Suggested Module Names:
 
@@ -39,10 +35,9 @@
 * Enable direct communication between devices across different network environments.  
 * Provide configuration to establish a connection in challenging network conditions.
 
-## M03:ShadowsocksProxy
+---
 
-### Hex Code:
-`A003`
+## M03:ShadowsocksProxy
 
 ### Suggested Module Names:
 
@@ -62,9 +57,6 @@
 
 ## M04:GateForward
 
-### Hex Code:
-`A004`
-
 ### Suggested Module Names:
 
 1. PortForwarder  
@@ -80,9 +72,6 @@
 * Control traffic flow within their network and manage network resources
 
 ## M05:SocketStatsAnalyze 
-
-### Hex Code:
-`A005`
 
 ### Suggested Module Names:
 
@@ -101,9 +90,6 @@
 
 ## M06: PortAnalyzer
 
-### Hex Code:
-`A006`
-
 ### Suggested Module Names:
 
 1. PortScanTool  
@@ -120,9 +106,6 @@
 * It also helps to ensure system security by identifying potential vulnerabilities related to open ports.
 
 ## M07: CPUAnalyzer
-
-### Hex Code:
-`A007`
 
 ### Suggested Module Names:
 
@@ -141,9 +124,6 @@
 
 ## M08: PacketCounter 
 
-### Hex Code:
-`A008`
-
 ### Suggested Module Names:
 
 1. PacketMonitor  
@@ -161,9 +141,6 @@
 
 ## M09:FastTaskLaunch
 
-### Hex Code:
-`A009`
-
 ### Suggested Module Names:
 
 1. TrayServer  
@@ -178,9 +155,6 @@
 * Once the server is running, users can easily open their default web browser to the local server's URL by clicking a button on the taskbar icon.
 
 ## M10:WinTrack
-
-### Hex Code:
-`A010`
 
 ### Suggested Module Names:
 
@@ -199,9 +173,6 @@
 
 ## M11:ScreenSnap
 
-### Hex Code:
-`A011`
-
 ### Suggested Module Names:
 
 1. SnapShotter  
@@ -217,9 +188,6 @@
 
 
 ## M12:KeyMouseTracker
-
-### Hex Code:
-`A012`
 
 ### Suggested Module Names:
 
@@ -237,9 +205,6 @@
 
 ## M13:MouseMover
 
-### Hex Code:
-`A013`
-
 ### Suggested Module Names:
 
 1. ClickAutomate  
@@ -253,9 +218,6 @@
 * MouseMover leverages the pynput library to provide a seamless and cross-platform solution
 
 ## M14:PySourceInspect 
-
-### Hex Code:
-`A014`
 
 ### Suggested Module Names:
 
@@ -272,9 +234,6 @@
 * Additionally, it tracks the usage of functions, global variables, and class attributes across the codebase. The results are saved as JSON, allowing for easy review and further processing. 
 
 ## M15:ImageThrift
-
-### Hex Code:
-`A015`
 
 ### Suggested Module Names:
 
@@ -330,9 +289,6 @@
 
 ## M16:UDPHolePunch
 
-### Hex Code:
-`A016`
-
 ### Suggested Module Names:
 
 1. PunchTest  
@@ -348,9 +304,6 @@
 
 
 ## M17:ECCrypto
-
-### Hex Code
-`A017`
 
 ### Suggested Module Names:  
 1. ECC SECP256K1 ### Hex Code:
@@ -371,9 +324,6 @@
 
 ## M18:DiscScanner
 
-### Hex Code:
-`A018`
-
 ### Suggested Module Names:
 
 1. DiskInspector  
@@ -389,9 +339,6 @@
 * The module includes functionality to write a JSON file containing a unique disk ID and UUID to the root of writable discs.
 
 ## M19:EventTracker
-
-### Hex Code:
-`A019`
 
 ### Suggested Module Names:
 
@@ -421,9 +368,6 @@
 
 ## M20:ScrapeMaster
 
-### Hex Code:
-`A020`
-
 ### Suggested Module Names:
 
 1. DataExtractor  
@@ -441,9 +385,6 @@
 
 ## M21:ServiceRegistry
 
-### Hex Code:
-`A021`
-
 ### Suggested Module Names:
 
 1. ServiceManager  
@@ -459,9 +400,6 @@
 *  It is designed for environments where service availability, connection management, and transport handling are crucial, offering a centralized way to track and interact with services in a networked system.
 
 ## M22: SurveyService 
-
-### Hex Code:
-`A022`
 
 ### Suggested Module Names:
 
@@ -494,9 +432,6 @@
 
 
 ## M23: ModelDownloader
-
-### Hex Code:
-`A023`
 
 ### Suggested Module Names:
 
